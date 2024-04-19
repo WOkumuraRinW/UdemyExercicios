@@ -46,19 +46,3 @@ System.out.println("Valor absoluto de " + y + " = " + A);
 
 Locale.setDefault(Locale.US);
 Scanner sc = new Scanner(System.in);
-
-       int H, V;
-       double C, S;
-
-       H = sc.nextInt();
-       V = sc.nextInt();
-       C = sc.nextDouble();
-
-
-       S = V * C;
-
-
-       System.out.printf("NUMBER = ", H );
-       System.out.printf("SALARY = US$ %.2f%n", S);
-
-       sc.close();
